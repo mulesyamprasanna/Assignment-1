@@ -1,5 +1,6 @@
 import { TestBed } from '@angular/core/testing';
 
+import { AppRoutingModule } from './app.routing.module';
 import { Component } from '@angular/core';
 
 @Component({
@@ -9,5 +10,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent  {
   name = 'Angular';
-  public isCollapsed = true;
+  
 }

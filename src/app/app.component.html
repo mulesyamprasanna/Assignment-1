@@ -8,14 +8,14 @@
         <!-- Left links -->
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active text-white"  href="/Home" ><i class="fa fa-home" aria-hidden="true"></i> Home</a>
+            <a class="nav-link active text-white"  routerLink="/Home" ><i class="fa fa-home" aria-hidden="true"></i> Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white " href="/createberwery">Why Pravel</a>
+            <a class="nav-link text-white " routerLink="/createberwery">Why Pravel</a>
           </li>
           
           <li class="nav-item ">
-            <a class="nav-link  text-white" href="/GetAllBrewerydatalist" > Life At Praval</a>
+            <a class="nav-link  text-white" routerLink="/GetAllBrewerydatalist" > Life At Praval</a>
            </li>  
           </ul>
            
@@ -29,7 +29,7 @@
           </form>
           
         
-       <a class="nav-link  text-white" href="/userlogin" > <i class="fa fa-user" aria-hidden="true"></i> UserLogin</a>
+       <a class="nav-link  text-white" routerLink="/userlogin" > <i class="fa fa-user" aria-hidden="true"></i> UserLogin</a>
     
       
         </div>
@@ -55,3 +55,4 @@
    <img src= "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCrlqP9gEKYzpRDBkOvvojuewFJ8G-Cjv4dg&usqp=CAU"  width="80" height="50" >Start Now
    
    </div>
+  <router-outlet></router-outlet>
