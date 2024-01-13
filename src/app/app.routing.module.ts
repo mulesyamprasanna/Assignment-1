@@ -8,10 +8,10 @@ import { Routes } from "@angular/router";
 import { NgModule } from "@angular/core";
 import { RouterModule,Router } from "@angular/router";
 
-const routes :Routes[
-   
-{},
-];
+const routes :Routes=[
+  {path:'home',component:HomeComponent},
+  {path:'shop',component:ShopComponent}
+]
 
 @NgModule({
     imports: [RouterModule.forRoot(routes)],
