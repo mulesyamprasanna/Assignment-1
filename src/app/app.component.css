@@ -1,114 +1,20 @@
-body {
-	background-color: #191970;
-}
+.center {
+     padding: 50px 0;
+     text-align: center;
+      background-color: LemonChiffon;
+      margin: auto;
+      width: 80%;
+      height: 100%;
+      padding: 15px;
+    
+   }
+   p {
+     color: Black;
+     font-family: "Times New Roman", Times, serif ;
+     font-size: 180%;
+     text-align: center;
+     font-weight: normal;
+    
+   }
 
-h5 {
-	color: green;
-}
-
-span {
-	display: inline-block;
-	padding: 5px 5px;
-	color: white;
-}
-
-
-
-
-  
-  .card{
-            padding: 2% 7%;
-            color: #646771;
-            background-color: #16151a;
-        }
-        
-        ul{
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-        }
-        
-        ul >li{
-            padding: 4px;
-        }
-        
-        ul > li:hover{
-            color:#957bda;
-            cursor: pointer;
-        }
-        
-        hr{
-            border-width: 3px;
-        }
-        
-        .social > i{
-            padding: 1%;
-            font-size: 15px;
-        }
-        
-        .social > i:hover{
-            color:#957bda;
-            cursor:pointer;
-        }
-        
-        .policy > div{
-            padding: 4px;
-        }
-        
-        .heading{
-            font-family: 'Titillium Web', sans-serif;
-            color: white;
-        }
-        
-        .divider{
-            border-top: 2px solid rgba(189, 196, 203, 0.5);;
-        }
-  
-  
-  
-  * {
-  box-sizing: border-box;
-}
-
-
-
-
-
-/* Create four equal columns that sits next to each other */
-.column {
-  -ms-flex: 25%; /* IE10 */
-  flex: 25%;
-  max-width: 25%;
-  padding: 0 8px;
-}
-
-.column img {
-  margin-top: 10px;
-  vertical-align: middle;
-  width: 80%;
-}
-
-/* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 800px) {
-  .column {
-    -ms-flex: 80%;
-    flex: 80%;
-    max-width: 80%;
-  }
-}
-
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .column {
-    -ms-flex: 100%;
-    flex: 100%;
-    max-width: 100%;
-  }
-}
-
-#example1 {
-  border: 3px solid green;
-  padding: 5px;
-  border-radius: 10px;
-}
-
+   

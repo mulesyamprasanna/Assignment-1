@@ -12,59 +12,8 @@ span {
 	color: white;
 }
 
-div.gallery {
-  border: 3px solid #ccc;
-}
 
-div.gallery:hover {
-  border: 4px solid #777;
-}
 
-div.gallery img {
-  width: 100%;
-  height: 100%;
-}
-
-div.desc {
-  padding: 30px;
-  text-align: center;
-  
-}
-
-* {
-  box-sizing: border-box;
-}
-
-.responsive {
-  padding: 3px;
-  float: left;
-  width: 30.99999%;
-}
-
-@media only screen and (max-width: 700px) {
-  .responsive {
-    width: 35.99999%;
-    margin: 5px 0;
-  }
-}
-
-@media only screen and (max-width: 300px) {
-  .responsive {
-    width: 80%;
-  }
-}
-
-.clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-div1 {
-
-  padding: 3px;
-  width:12%;
-}
 
   
   .card{
@@ -121,23 +70,9 @@ div1 {
   box-sizing: border-box;
 }
 
-body {
-  margin: 0;
-  font-family: Arial;
-}
 
-.header {
-  text-align: center;
-  padding: 30px;
-}
 
-.row {
-  display: -ms-flexbox; /* IE10 */
-  display: flex;
-  -ms-flex-wrap: wrap; /* IE10 */
-  flex-wrap: wrap;
-  padding: 0 4px;
-}
+
 
 /* Create four equal columns that sits next to each other */
 .column {
@@ -170,3 +105,10 @@ body {
     max-width: 100%;
   }
 }
+
+#example1 {
+  border: 3px solid green;
+  padding: 5px;
+  border-radius: 10px;
+}
+
